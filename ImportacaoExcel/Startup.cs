@@ -28,9 +28,17 @@ namespace ImportacaoExcel
                 c.SwaggerDoc("v1", new Info
                 {
                     Version = "v1",
-                    Title = "Api Senatur",
-                    Description = "Documentação da API do projeto Senatur"
+                    Title = "Api Uf",
+                    Description = "Documentação da API Uf"
                 });
+            });
+
+            services.AddCors(options => {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .AllowCredentials());
             });
         }
 
@@ -49,6 +57,8 @@ namespace ImportacaoExcel
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Senatur API");
                 c.DocumentTitle = "API Senatur";
             });
+
+            app.UseCors("CorsPolicy");
 
             app.UseMvc();
         }

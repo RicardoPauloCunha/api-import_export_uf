@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Hosting;
 using Newtonsoft.Json;
 using NPOI.SS.UserModel;
 using NPOI.XSSF.UserModel;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ImportacaoExcel.Controllers
 {
@@ -43,6 +44,7 @@ namespace ImportacaoExcel.Controllers
         }
 
         [HttpGet]
+        [AllowAnonymous]
         public async Task<IActionResult> ExportUf()
         {
             try

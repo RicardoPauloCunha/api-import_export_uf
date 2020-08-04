@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ricar\\OneDrive\\Área de Trabalho\\import_uf-api-csharp\\ImportacaoExcel\\ImportacaoExportacaoExcel.csproj": {}
+    "C:\\Users\\ricar\\OneDrive\\Área de Trabalho\\Senai\\import_uf-api-csharp\\ImportacaoExcel\\ImportacaoExportacaoExcel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ricar\\OneDrive\\Área de Trabalho\\import_uf-api-csharp\\ImportacaoExcel\\ImportacaoExportacaoExcel.csproj": {
+    "C:\\Users\\ricar\\OneDrive\\Área de Trabalho\\Senai\\import_uf-api-csharp\\ImportacaoExcel\\ImportacaoExportacaoExcel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\OneDrive\\Área de Trabalho\\import_uf-api-csharp\\ImportacaoExcel\\ImportacaoExportacaoExcel.csproj",
+        "projectUniqueName": "C:\\Users\\ricar\\OneDrive\\Área de Trabalho\\Senai\\import_uf-api-csharp\\ImportacaoExcel\\ImportacaoExportacaoExcel.csproj",
         "projectName": "ImportacaoExportacaoExcel",
-        "projectPath": "C:\\Users\\ricar\\OneDrive\\Área de Trabalho\\import_uf-api-csharp\\ImportacaoExcel\\ImportacaoExportacaoExcel.csproj",
+        "projectPath": "C:\\Users\\ricar\\OneDrive\\Área de Trabalho\\Senai\\import_uf-api-csharp\\ImportacaoExcel\\ImportacaoExportacaoExcel.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\OneDrive\\Área de Trabalho\\import_uf-api-csharp\\ImportacaoExcel\\obj\\",
+        "outputPath": "C:\\Users\\ricar\\OneDrive\\Área de Trabalho\\Senai\\import_uf-api-csharp\\ImportacaoExcel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
